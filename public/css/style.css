@@ -1,0 +1,61 @@
+.main {
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: rgb(167, 153, 153);
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 12px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+}
+
+.sidebar a:hover {
+    background-color: rgb(78, 75, 75);
+}
+
+.active {
+    background-color:black;
+    border-right: solid 5px beige;
+}
+
+.card-data {
+    border: solid;
+    padding: 20px 40px;
+    color: white;
+}
+
+.card-data.items{
+    background-color: dodgerblue;
+}
+
+.card-data.categories {
+    background-color: darkgoldenrod;
+}
+
+.card-data.list {
+    background-color: teal;
+}
+.card-data i {
+    font-size: 80px;
+}
+
+.card-desc {
+    font-size: 25px;
+}
+
+.card-count{
+    font-size:15px;
+}
